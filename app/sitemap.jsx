@@ -7,6 +7,24 @@ export default function sitemap() {
         priority: 1,
       },
       {
+        url: 'http://localhost:3000/terms-conditions',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.6,
+      },
+      {
+        url: 'http://localhost:3000/privacy-policies',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.4,
+      },
+      {
+        url: 'http://localhost:3000/contact',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.7,
+      },
+      {
         url: 'http://localhost:3000/category',
         lastModified: new Date(),
         changeFrequency: 'monthly',
