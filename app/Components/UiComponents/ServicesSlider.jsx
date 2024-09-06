@@ -8,13 +8,13 @@ import Slider from "react-slick";
 function PrevArrow(props) {
     const { className, onClick } = props;
     return (
-        <button type='button' className="inline-flex justify-center items-center absolute top-2/4 -translate-y-2/4 z-10 w-10 md:w-[60px] h-10 md:h-[60px] border-0 text-lg md:text-2xl rounded-full bg-BGcolor2 text-Pcolor transition-all hover:text-white hover:bg-Pcolor left-0" onClick={onClick}> <FaAnglesLeft /> </button>
+        <button type='button' className="inline-flex justify-center items-center absolute top-2/4 -translate-y-2/4 z-10 w-10 md:w-[60px] h-10 md:h-[60px] border-0 text-lg md:text-2xl rounded-full bg-Pcolor text-white transition-all hover:text-white hover:bg-Hcolor left-0" onClick={onClick}> <FaAnglesLeft /> </button>
     );
 }
 function NextArrow(props) {
     const { className, onClick } = props;
     return (
-        <button type='button' className="inline-flex justify-center items-center absolute top-2/4 -translate-y-2/4 z-10 w-10 md:w-[60px] h-10 md:h-[60px] border-0 text-lg md:text-2xl rounded-full bg-BGcolor2 text-Pcolor transition-all hover:text-white hover:bg-Pcolor right-0" onClick={onClick}> <FaAnglesRight /> </button>
+        <button type='button' className="inline-flex justify-center items-center absolute top-2/4 -translate-y-2/4 z-10 w-10 md:w-[60px] h-10 md:h-[60px] border-0 text-lg md:text-2xl rounded-full bg-Pcolor text-white transition-all hover:text-white hover:bg-Hcolor right-0" onClick={onClick}> <FaAnglesRight /> </button>
     );
 }
 // max text lenght 

@@ -24,8 +24,8 @@ export default function Header() {
                     <div className={isActive ? 'w-full lg:w-auto': "hidden lg:block"} >
                         <ul className="flex gap-y-3 flex-col lg:flex-row  gap-x-8 mt-4 lg:mt-0 text-base font-medium capitalize ">
                             <li onClick={HandelToggle}><Link className={pathname == "/" ? "text-Hcolor" : "text-white"} href="/">Home</Link></li>
-                            <li onClick={HandelToggle}><Link className={pathname == "/services" ? "text-Hcolor" : "text-white"} href="/services">Services</Link></li>
-                            <li onClick={HandelToggle}><Link className={pathname == "/features" ? "text-Hcolor" : "text-white"} href="/features">Features</Link></li>
+                            <li onClick={HandelToggle}><Link className={pathname == "/terms-conditions" ? "text-Hcolor" : "text-white"} href="/terms-conditions">terms and conditions</Link></li>
+                            <li onClick={HandelToggle}><Link className={pathname == "/privacy-policies" ? "text-Hcolor" : "text-white"} href="/privacy-policies">privacy policies</Link></li>
                             <li onClick={HandelToggle}><Link className={pathname == "/contact" ? "text-Hcolor" : "text-white"} href="/contact">Contact Us</Link></li>
                         </ul>
                     </div>

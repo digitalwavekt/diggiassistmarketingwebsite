@@ -15,7 +15,7 @@ export default function SingleService({ params }) {
         <div className="container mx-auto px-4">
           <div className="bg-white rounded-lg p-5 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
             <div>
-              <div className='relative mb-10'>
+              <div className='relative mb-5'>
                 <Image className='w-full object-cover rounded-md  object-top aspect-[16/9]' src={serviceThumbnail} alt={serviceName} placeholder='blur' />
                 <span className='absolute left-4 top-4 bg-Pcolor text-white rounded-md px-3 py-2'>{category}</span>
               </div>
