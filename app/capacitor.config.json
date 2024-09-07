@@ -1,6 +1,0 @@
-{
-    "appId": "com.diggiassist",
-    "appName": "diggiassist",
-    "bundledWebRuntime": false,
-    "npmClient": "npm"
-  }
