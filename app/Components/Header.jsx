@@ -16,7 +16,7 @@ export default function Header() {
             <nav>
                 <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="/" className="flex items-center text-3xl font-bold text-white capitalize">
-                        DiggiAssist
+                        DiggiAssist 
                     </Link>
                     <button type="button" onClick={HandelToggle} className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg lg:hidden">
                         <Image src={MenuIcon} alt='Toggle Menu' />
