@@ -2,13 +2,33 @@ import React from 'react'
 import ServicesData from '@/app/Components/Api/ServicesApi';
 import Image from 'next/image';
 import ContactArea from '@/app/Components/PageComponents/ContactArea';
-export default function SingleService({ params }) {
-  const serviceid = parseInt(params.serviceid);
-  const services = ServicesData.find(item => item.id === serviceid);
-  if (!services) {
-    return <div className='flex items-center justify-center p-4 text-center bg-BGcolor py-20 md:h-[45vh] text-3xl sm:text-4xl md:text-5xl font-semibold text-Tcolor'>service not found</div>;
+
+export async function generateStaticParams() {
+  const paths = ServicesData.map(service => ({
+    serviceid: service.id.toString() 
+  }));
+
+  if (paths.length === 0) {
+    throw new Error("No services found in ServicesData. Ensure data is available.");
   }
-  const { id, serviceName, category, serviceThumbnail, desc } = services;
+
+  return paths;
+}
+
+export default function SingleService({ params }) {
+  const serviceid = parseInt(params.serviceid); 
+  const service = ServicesData.find(item => item.id === serviceid); 
+
+  if (!service) {
+    return (
+      <div className='flex items-center justify-center p-4 text-center bg-BGcolor py-20 md:h-[45vh] text-3xl sm:text-4xl md:text-5xl font-semibold text-Tcolor'>
+        Service not found
+      </div>
+    );
+  }
+
+  const { id, serviceName, category, serviceThumbnail, desc } = service;
+
   return (
     <>
       <section className='pt-10 lg:pt-20 xl:pt-28 bg-BGcolor'>
@@ -16,7 +36,12 @@ export default function SingleService({ params }) {
           <div className="bg-white rounded-lg p-5 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
             <div>
               <div className='relative mb-5'>
-                <Image className='w-full object-cover rounded-md  object-top aspect-[16/9]' src={serviceThumbnail} alt={serviceName} placeholder='blur' />
+                <Image
+                  className='w-full object-cover rounded-md object-top aspect-[16/9]'
+                  src={serviceThumbnail}
+                  alt={serviceName}
+                  placeholder='blur'
+                />
                 <span className='absolute left-4 top-4 bg-Pcolor text-white rounded-md px-3 py-2'>{category}</span>
               </div>
               <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold capitalize text-Tcolor mb-3 lg:mb-5'>{serviceName}</h2>
@@ -50,5 +75,5 @@ export default function SingleService({ params }) {
       </section>
       <ContactArea />
     </>
-  )
+  );
 }

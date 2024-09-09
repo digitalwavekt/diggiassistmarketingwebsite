@@ -315,7 +315,7 @@ const ServicesData = [
         serviceThumbnail: CategoryThumbnail39,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
-      {
+    {
         id: 40,
         serviceName: "Music & Art Lessons",
         category: "Electrical Services",
@@ -334,6 +334,13 @@ const ServicesData = [
         serviceName: "Vehicle Rental & Leasing",
         category: "Electrical Services",
         serviceThumbnail: CategoryThumbnail42,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 43,
+        serviceName: "Vehicle Rental & Leasing",
+        category: "Electrical Services",
+        serviceThumbnail: CategoryThumbnail40,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
