@@ -8,7 +8,7 @@ export default function PrivacyPolicies() {
                 <div className="container mx-auto px-4">
                     <SectionTitle title="PRIVACY POLICY" />
                     <h3 className='text-xl sm:text-2xl font-semibold text-Tcolor mb-2'>Last updated May 10, 2024</h3>
-                    <p>This privacy notice for DIGITAL WAVE IT SOLUTIONS PRIVATE LIMITED doing business as DiggiAssist we, us, or our, describes how and why we might collect, store, use, and/or share process your information when you use our services Services, such as when you: Download and use our mobile application DiggiAssist, or any other application of ours that links to this privacy notice Engage with us in other related ways, including any sales, marketing, or events Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us</p>
+                    <p>This privacy notice for DiggiAssist(KT IT SOLUTIONS) doing business as DiggiAssist we, us, or our, describes how and why we might collect, store, use, and/or share process your information when you use our services Services, such as when you: Download and use our mobile application DiggiAssist, or any other application of ours that links to this privacy notice Engage with us in other related ways, including any sales, marketing, or events Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us</p>
                     <div className='space-y-10 mt-5 lg:mt-10'>
                         <div>
                             <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>SUMMARY OF KEY POINTS</h3>
@@ -90,7 +90,7 @@ export default function PrivacyPolicies() {
                             <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
                             <p>If you have questions or comments about this notice, you may email us or contact us by post at</p>
                             <ul className='space-y-3 my-4'>
-                                <li>DIGITAL WAVE IT SOLUTIONS PRIVATE LIMITED</li>
+                                <li>KT IT SOLUTIONS</li>
                                 <li>39 mitra nagar , khirni phatak jhotwara jaipur, Rajasthan 302012 India</li>
                             </ul>
                         </div>
