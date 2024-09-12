@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "flowbite-react": "^0.10.1",
+    "mongodb": "^6.8.1",
     "next": "14.2.6",
     "node": "^22.8.0",
     "react": "^18",
