@@ -6,97 +6,195 @@ export default function PrivacyPolicies() {
         <main>
             <section className='py-10 lg:py-20 xl:py-28 bg-BGcolor'>
                 <div className="container mx-auto px-4">
-                    <SectionTitle title="PRIVACY POLICY" />
-                    <h3 className='text-xl sm:text-2xl font-semibold text-Tcolor mb-2'>Last updated May 10, 2024</h3>
-                    <p>This privacy notice for DIGITAL WAVE IT SOLUTIONS PRIVATE LIMITED doing business as DiggiAssist we, us, or our, describes how and why we might collect, store, use, and/or share process your information when you use our services Services, such as when you: Download and use our mobile application DiggiAssist, or any other application of ours that links to this privacy notice Engage with us in other related ways, including any sales, marketing, or events Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us</p>
+                    <SectionTitle title="Privacy Policy" />
+                    <h3 className='text-xl sm:text-2xl font-semibold text-Tcolor mb-2'>Last updated: September 15, 2024</h3>
+                    <p className='mb-3 last:mb-0'>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information
+                        when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+                    <p className='mb-3 last:mb-0'>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and
+                        use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the
+                        <a className='underline' href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank"> Free Privacy Policy
+                            Generator</a>.</p>
                     <div className='space-y-10 mt-5 lg:mt-10'>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>SUMMARY OF KEY POINTS</h3>
-                            <p>This summary provides key points from our privacy notice. Still, you can find more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about the personal information you disclose to us. Do we process any sensitive personal information? We do not process sensitive personal information. Do we receive any information from third parties? We do not receive any information from third parties. How do we process your information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.  Learn more about how we process your information. In what situations and with which parties do we share personal information? We may share information in specific situations and with specific third parties. Learn more about when and with whom we share your personal information. How do we keep your information safe? We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe. What are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about your privacy rights. How do you exercise your rights? The easiest way to exercise your rights is by submitting a data subject access request, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws. Want to learn more about what we do with any information we collect? Review the privacy notice in full.</p>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>TABLE OF CONTENTS</h3>
+                            <h2 className='text-2xl ms:text-3xl font-semibold text-Tcolor mb-3'>Interpretation and Definitions</h2>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Interpretation</h3>
+                            <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The
+                                following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Definitions</h3>
+                            <p>For the purposes of this Privacy Policy:</p>
                             <ul className='space-y-3 my-4'>
-                                <li>1. WHAT INFORMATION DO WE COLLECT?</li>
-                                <li>2. HOW DO WE PROCESS YOUR INFORMATION?</li>
-                                <li>3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</li>
-                                <li>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</li>
-                                <li>5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</li>
-                                <li>6. HOW LONG DO WE KEEP YOUR INFORMATION?</li>
-                                <li>7. HOW DO WE KEEP YOUR INFORMATION SAFE?</li>
-                                <li>8. WHAT ARE YOUR PRIVACY RIGHTS?</li>
-                                <li>9. CONTROLS FOR DO-NOT-TRACK FEATURES</li>
-                                <li>10. DO WE MAKE UPDATES TO THIS NOTICE?</li>
-                                <li>11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</li>
-                                <li>12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</li>
+                                <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our
+                                    Service.</li>
+                                <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a
+                                    party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other
+                                    securities entitled to vote for election of directors or other managing authority.</li>
+                                <li><strong>Application</strong> refers to DIGGIASSIST, the software program provided by the Company.</li>
+                                <li><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or
+                                    &quot;Our&quot; in this Agreement) refers to DIGITAL WAVE IT SOLUTIONS PVT LTD, 39 MITRA NAGAR KHIRNI PHATAK
+                                    JAIPUR 302012.</li>
+                                <li><strong>Country</strong> refers to: Rajasthan, India</li>
+                                <li><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a
+                                    digital tablet.</li>
+                                <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+                                <li><strong>Service</strong> refers to the Application.</li>
+                                <li><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the
+                                    Company. It refers to third-party companies or individuals employed by the Company to facilitate the
+                                    Service, to provide the Service on behalf of the Company, to perform services related to the Service or to
+                                    assist the Company in analyzing how the Service is used.</li>
+                                <li><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the
+                                    Service or from the Service infrastructure itself (for example, the duration of a page visit).</li>
+                                <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal
+                                    entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW DO WE PROCESS YOUR INFORMATION?</h3>
-                            <p>In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and comply with law. We may also process your information for other purposes with your consent. </p>
-                            <h4 className='text-lg text-Tcolor font-semibold my-3'>We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
-                            </h4>
+                            <h2 className='text-2xl ms:text-3xl font-semibold text-Tcolor mb-3'>Collecting and Using Your Personal Data</h2>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Types of Data Collected</h3>
+                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Personal Data</h4>
+                            <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be
+                                used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
                             <ul className='space-y-3 my-4'>
-                                <li>To facilitate account creation and authentication and otherwise manage user accounts. We may process your information so you can create and log in to your account, as well as keep your account in working order.</li>
-                                <li>To deliver and facilitate the delivery of services to the user. We may process your information to provide you with the requested service.</li>
-                                <li>To respond to user inquiries/offer support to users. We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.</li>
-                                <li>To fulfil and manage your orders. We may process your information to fulfill and manage your orders, payments, returns, and exchanges made through the Services.</li>
-                                <li>To request feedback. We may process your information when necessary to request feedback and to contact you about your use of our Services.</li>
-                                <li>To deliver targeted advertising to you. We may process your information to develop and display personalized content and advertising tailored to your interests, location</li>
-                                <li>To protect our Services. We may process your information as part of our efforts to keep our Services safe and secure, including fraud monitoring and prevention.</li>
+                                <li>Usage Data</li>
+                            </ul>
+                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Usage Data</h4>
+                            <p className='mb-3 last:mb-0'>Usage Data is collected automatically when using the Service.</p>
+                            <p className='mb-3 last:mb-0'>Usage Data may include information such as Your Devices Internet Protocol address (e.g. IP address), browser type,
+                                browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those
+                                pages, unique device identifiers and other diagnostic data.</p>
+                            <p className='mb-3 last:mb-0'>When You access the Service by or through a mobile device, We may collect certain information automatically,
+                                including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of
+                                Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device
+                                identifiers and other diagnostic data.</p>
+                            <p className='mb-3 last:mb-0'>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service
+                                by or through a mobile device.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Use of Your Personal Data</h3>
+                            <p className='mb-3 last:mb-0'>The Company may use Personal Data for the following purposes:</p>
+                            <ul className='space-y-3 my-4'>
+                                <li><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</li>
+                                <li><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal
+                                    Data You provide can give You access to different functionalities of the Service that are available to You
+                                    as a registered user.</li>
+                                <li><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the
+                                    purchase contract for the products, items or services You have purchased or of any other contract with Us
+                                    through the Service.</li>
+                                <li><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of
+                                    electronic communication, such as a mobile applications push notifications regarding updates or informative
+                                    communications related to the functionalities, products or contracted services, including the security
+                                    updates, when necessary or reasonable for their implementation.</li>
+                                <li><strong>To provide You</strong> with news, special offers and general information about other goods, services
+                                    and events which we offer that are similar to those that you have already purchased or enquired about unless
+                                    You have opted not to receive such information.</li>
+                                <li><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</li>
+                                <li><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger,
+                                    divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our
+                                    assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which
+                                    Personal Data held by Us about our Service users is among the assets transferred.</li>
+                                <li><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis,
+                                    identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and
+                                    improve our Service, products, services, marketing and your experience.</li>
+                            </ul>
+                            <p className='mb-3 last:mb-0'>We may share Your personal information in the following situations:</p>
+                            <ul className='space-y-3 my-4'>
+                                <li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to
+                                    monitor and analyze the use of our Service, to contact You.</li>
+                                <li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with,
+                                    or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of
+                                    Our business to another company.</li>
+                                <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will
+                                    require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other
+                                    subsidiaries, joint venture partners or other companies that We control or that are under common control with
+                                    Us.</li>
+                                <li><strong>With business partners:</strong> We may share Your information with Our business partners to offer You
+                                    certain products, services or promotions.</li>
+                                <li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas
+                                    with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
+                                <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your
+                                    consent.</li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h3>
-                            <p>In Short: We may share information in specific situations described in this section and/or with the following third parties. We may need to share your personal information in the following situations:</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Retention of Your Personal Data</h3>
+                            <p className='mb-3 last:mb-0'>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy
+                                Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for
+                                example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our
+                                legal agreements and policies.</p>
+                            <p className='mb-3 last:mb-0'>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a
+                                shorter period of time, except when this data is used to strengthen the security or to improve the functionality of
+                                Our Service, or We are legally obligated to retain this data for longer time periods.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Transfer of Your Personal Data</h3>
+                            <p className='mb-3 last:mb-0'>Your information, including Personal Data, is processed at the Companys operating offices and in any other places
+                                where the parties involved in the processing are located. It means that this information may be transferred to — and
+                                maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where
+                                the data protection laws may differ than those from Your jurisdiction.</p>
+                            <p className='mb-3 last:mb-0'>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that
+                                transfer.</p>
+                            <p className='mb-3 last:mb-0'>he Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance
+                                with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country
+                                unless there are adequate controls in place including the security of Your data and other personal information.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Delete Your Personal Data</h3>
+                            <p className='mb-3 last:mb-0'>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about
+                                You. </p>
+                            <p className='mb-3 last:mb-0'>Our Service may give You the ability to delete certain information about You from within the Service. </p>
+                            <p className='mb-3 last:mb-0'>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and
+                                visiting the account settings section that allows you to manage Your personal information. You may also contact Us
+                                to request access to, correct, or delete any personal information that You have provided to Us </p>
+                            <p className='mb-3 last:mb-0'>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis
+                                to do so </p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Disclosure of Your Personal Data</h3>
+                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Business Transactions</h4>
+                            <p className='mb-3 last:mb-0'>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will
+                                provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy. </p>
+                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Law enforcement</h4>
+                            <p className='mb-3 last:mb-0'>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law
+                                or in response to valid requests by public authorities (e.g. a court or a government agency). </p>
+                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Other legal requirements</h4>
+                            <p className='mb-3 last:mb-0'>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to: </p>
                             <ul className='space-y-3 my-4'>
-                                <li>Business Transfers. We may share or transfer your information in connection with or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
-                                <li>When we use Google Analytics. We may share your information with Google Analytics to track and analyze the use of the Services. The Google Analytics Advertising Features that we may use include: Remarketing with Google Analytics. To opt out of being tracked by Google Analytics across the Services. You can opt out of Google Analytics Advertising Features through Ads Settings and Ad Settings for mobile apps. For more information on the privacy practices of Google, please visit the Google Privacy & Terms page.</li>
-                                <li>When we use Google Maps Platform APIs. We may share your information with certain Google Maps Platform APIs e.g. Google Maps API, Places API. We obtain and store on your device cache your location. You may revoke your consent anytime by contacting us at the contact details provided at the end of this document.</li>
-                                <li>Offer Wall.Â Our applications may display a third-party hosted offer wall. Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our applications and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our applications. A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.</li>
+                                <li>Comply with a legal obligation</li>
+                                <li>Protect and defend the rights or property of the Company</li>
+                                <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+                                <li>Protect the personal safety of Users of the Service or the public</li>
+                                <li>Protect against legal liability</li>
                             </ul>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Security of Your Personal Data</h3>
+                            <p className='mb-3 last:mb-0'>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet,
+                                or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your
+                                Personal Data, We cannot guarantee its absolute security.</p>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h3>
-                            <p>In Short: We may use cookies and other tracking technologies to collect and store your information. We may use cookies and similar tracking technologies like web beacons and pixels to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies </p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Childrens Privacy</h3>
+                            <p className='mb-3 last:mb-0'>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable
+                                information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has
+                                provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from
+                                anyone under the age of 13 without verification of parental consent, We take steps to remove that information from
+                                Our servers.</p>
+                            <p className='mb-3 last:mb-0'>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from
+                                a parent, We may require Your parents consent before We collect and use that information.</p>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h3>
-                            <p>In Short: If you choose to register or log in to our Services using a social media account, we may have access to certain information about you. Our Services offer you the ability to register and log in using your third-party social media account details like your Facebook or Twitter logins. Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform. We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Links to Other Websites</h3>
+                            <p className='mb-3 last:mb-0'>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You
+                                will be directed to that third partys site. We strongly advise You to review the Privacy Policy of every site You
+                                visit.</p>
+                            <p className='mb-3 last:mb-0'>We have no control over and assume no responsibility for the content, privacy policies or practices of any third
+                                party sites or services.</p>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW LONG DO WE KEEP YOUR INFORMATION?</h3>
-                            <p>In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law. We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law such as tax, accounting, or other legal requirements. No purpose in this notice will require us keeping your personal information for longer than  the period of time in which users have an account with us. When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymise such information, or, if this is not possible for example, because your personal information has been stored in backup archives, then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Changes to this Privacy Policy</h3>
+                            <p className='mb-3 last:mb-0'>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy
+                                Policy on this page.</p>
+                            <p className='mb-3 last:mb-0'>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and
+                                update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
+                            <p className='mb-3 last:mb-0'>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are
+                                effective when they are posted on this page.</p>
                         </div>
                         <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW DO WE KEEP YOUR INFORMATION SAFE?</h3>
-                            <p>In Short: We aim to protect your personal information through a system of organizational and technical security measures. We have implemented appropriate and reasonable technical and organisational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>WHAT ARE YOUR PRIVACY RIGHTS?</h3>
-                            <p>In Short: You may review, change, or terminate your account at any time. Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us using the contact details provided in the section HOW CAN YOU CONTACT US ABOUT THIS NOTICE? below. However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.</p>
-                            <h4 className='text-lg text-Tcolor font-semibold my-3'>Account Information</h4>
-                            <p>If you would at any time like to review or change the information in your account or terminate your account, you can: Log in to your account settings and update your user account. Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements. Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information. If you have questions or comments about your privacy rights, you may email us </p>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>CONTROLS FOR DO-NOT-TRACK FEATURES</h3>
-                            <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognising and implementing DNT signals has been finalised. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.</p>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>DO WE MAKE UPDATES TO THIS NOTICE?</h3>
-                            <p>In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws. We may update this privacy notice from time to time. The updated version will be indicated by an updated Revised date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.</p>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
-                            <p>If you have questions or comments about this notice, you may email us or contact us by post at</p>
+                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>Contact Us</h3>
+                            <p className='mb-3 last:mb-0'>If you have any questions about this Privacy Policy, You can contact us:</p>
                             <ul className='space-y-3 my-4'>
-                                <li>DIGITAL WAVE IT SOLUTIONS PRIVATE LIMITED</li>
-                                <li>39 mitra nagar , khirni phatak jhotwara jaipur, Rajasthan 302012 India</li>
+                                <li>By visiting this page on our website: <a className='underline' href="https://diggiassist.com/contact"
+                                    target="_blank">https://diggiassist/contact-us</a></li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3 className='text-xl ms:text-2xl font-semibold text-Tcolor mb-3'>HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h3>
-                            <p>You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please fill out and submit a data subject access request.</p>
                         </div>
                     </div>
                 </div>
