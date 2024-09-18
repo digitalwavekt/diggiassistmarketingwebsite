@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.diggiassist.app',
+  appId: 'com.diggiassist1.app',
   appName: 'Diggiassist',
   webDir: 'out',
 };
