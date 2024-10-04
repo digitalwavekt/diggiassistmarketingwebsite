@@ -17,72 +17,89 @@ import CategoryThumbnail14 from '@/public/category-thumbnail-14.jpg'
 const CategoryListData = [
     {
         id:1,
-        title: "Beauty & Grooming",
+        title: "Self care",
         thumbnail: CategoryThumbnail1,
     },
     {
         id:2,
-        title: "Healthcare Services",
+        title: "Take care",
         thumbnail: CategoryThumbnail2,
     },
     {
         id:3,
-        title: "Fitness & Wellness",
+        title: "Home services",
         thumbnail: CategoryThumbnail3,
     },
     {
         id:4,
-        title: "Massage Therapy",
+        title: "House Decor",
         thumbnail: CategoryThumbnail4,
     },
     {
         id:5,
-        title: "House Cleaning & Maintenance",
+        title: "Electrical services",
         thumbnail: CategoryThumbnail5,
     },
     {
         id:6,
-        title: "Laundry Services",
+        title: "Machnical",
         thumbnail: CategoryThumbnail6,
     },
     {
         id:7,
-        title: "Grocery Shopping & Delivery",
+        title: "Installation",
         thumbnail: CategoryThumbnail7,
+        subCategory: [
+            {
+                id:1,
+                title: "Big Machine",
+                thumbnail: CategoryThumbnail7,
+            },
+            {
+                id:2,
+                title: "WIfi Installation",
+                thumbnail: CategoryThumbnail7,
+            },
+            {
+                id:3,
+                title: "DishTv/ cable",
+                thumbnail: CategoryThumbnail7,
+            },
+        ]
     },
     {
         id:8,
-        title: "Home Repair & Handyman Services",
+        title: "Event  Oragniser",
         thumbnail: CategoryThumbnail8,
     },
     {
         id:9,
-        title: "Pest Control Services",
+        title: "Pet related",
         thumbnail: CategoryThumbnail9,
     },
     {
         id:10,
-        title: "Legal Document Assistance",
+        title: "Tech Supporter",
         thumbnail: CategoryThumbnail10,
     },
     {
         id:11,
-        title: "Financial & Tax Services",
+        title: "Rental services",
         thumbnail: CategoryThumbnail11,
     },
     {
         id:12,
-        title: "Property Management",
+        title: "Direct Selling",
         thumbnail: CategoryThumbnail12,
     },
     {
         id:13,
-        title: "Personal Documentation",
+        title: "Long Terms",
         thumbnail: CategoryThumbnail13,
     },
     {
         id:14,
-        title: "Electrical Services",
+        title: "Advertisment store",
         thumbnail: CategoryThumbnail14,
     }
 ]

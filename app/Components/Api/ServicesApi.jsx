@@ -1,341 +1,683 @@
-import CategoryThumbnail1 from '@/public/category-thumbnail-1.jpg'
-import CategoryThumbnail2 from '@/public/category-thumbnail-2.jpg'
-import CategoryThumbnail3 from '@/public/category-thumbnail-3.jpg'
-import CategoryThumbnail4 from '@/public/category-thumbnail-4.jpg'
-import CategoryThumbnail5 from '@/public/category-thumbnail-5.jpg'
-import CategoryThumbnail6 from '@/public/category-thumbnail-6.jpg'
-import CategoryThumbnail7 from '@/public/category-thumbnail-7.jpg'
-import CategoryThumbnail8 from '@/public/category-thumbnail-8.jpg'
-import CategoryThumbnail9 from '@/public/category-thumbnail-9.jpg'
-import CategoryThumbnail10 from '@/public/category-thumbnail-10.jpg'
-import CategoryThumbnail11 from '@/public/category-thumbnail-11.jpg'
-import CategoryThumbnail12 from '@/public/category-thumbnail-12.jpg'
-import CategoryThumbnail13 from '@/public/category-thumbnail-13.jpg'
-import CategoryThumbnail14 from '@/public/category-thumbnail-14.jpg'
-import CategoryThumbnail15 from '@/public/category-thumbnail-15.jpg'
-import CategoryThumbnail16 from '@/public/category-thumbnail-16.jpg'
-import CategoryThumbnail17 from '@/public/category-thumbnail-17.jpg'
-import CategoryThumbnail18 from '@/public/category-thumbnail-18.jpg'
-import CategoryThumbnail19 from '@/public/category-thumbnail-19.jpg'
-import CategoryThumbnail20 from '@/public/category-thumbnail-20.jpg'
-import CategoryThumbnail21 from '@/public/category-thumbnail-21.jpg'
-import CategoryThumbnail22 from '@/public/category-thumbnail-22.jpg'
-import CategoryThumbnail23 from '@/public/category-thumbnail-23.jpg'
-import CategoryThumbnail24 from '@/public/category-thumbnail-24.jpg'
-import CategoryThumbnail25 from '@/public/category-thumbnail-25.jpg'
-import CategoryThumbnail26 from '@/public/category-thumbnail-26.jpg'
-import CategoryThumbnail27 from '@/public/category-thumbnail-27.jpg'
-import CategoryThumbnail28 from '@/public/category-thumbnail-28.jpg'
-import CategoryThumbnail29 from '@/public/category-thumbnail-29.jpg'
-import CategoryThumbnail30 from '@/public/category-thumbnail-30.jpg'
-import CategoryThumbnail31 from '@/public/category-thumbnail-31.jpg'
-import CategoryThumbnail32 from '@/public/category-thumbnail-32.jpg'
-import CategoryThumbnail33 from '@/public/category-thumbnail-33.jpg'
-import CategoryThumbnail34 from '@/public/category-thumbnail-34.jpg'
-import CategoryThumbnail35 from '@/public/category-thumbnail-35.jpg'
-import CategoryThumbnail36 from '@/public/category-thumbnail-36.jpg'
-import CategoryThumbnail37 from '@/public/category-thumbnail-37.jpg'
-import CategoryThumbnail38 from '@/public/category-thumbnail-38.jpg'
-import CategoryThumbnail39 from '@/public/category-thumbnail-39.jpg'
-import CategoryThumbnail40 from '@/public/category-thumbnail-40.jpg'
-import CategoryThumbnail41 from '@/public/category-thumbnail-41.jpg'
-import CategoryThumbnail42 from '@/public/category-thumbnail-42.jpg'
+import ProductThumbnail1 from '@/public/product-thumbnail-1.jpg'
+import ProductThumbnail2 from '@/public/product-thumbnail-2.jpg'
+import ProductThumbnail3 from '@/public/product-thumbnail-3.jpg'
+import ProductThumbnail4 from '@/public/product-thumbnail-4.jpg'
+import ProductThumbnail5 from '@/public/product-thumbnail-5.jpg'
+import ProductThumbnail6 from '@/public/product-thumbnail-6.jpg'
+import ProductThumbnail7 from '@/public/product-thumbnail-7.jpg'
+import ProductThumbnail8 from '@/public/product-thumbnail-8.jpg'
+import ProductThumbnail9 from '@/public/product-thumbnail-9.jpg'
+import ProductThumbnail10 from '@/public/product-thumbnail-10.jpg'
+import ProductThumbnail11 from '@/public/product-thumbnail-11.jpg'
+import ProductThumbnail12 from '@/public/product-thumbnail-12.jpg'
+import ProductThumbnail13 from '@/public/product-thumbnail-13.jpg'
+import ProductThumbnail14 from '@/public/product-thumbnail-14.jpg'
+import ProductThumbnail15 from '@/public/product-thumbnail-15.jpg'
+import ProductThumbnail16 from '@/public/product-thumbnail-16.jpg'
+import ProductThumbnail17 from '@/public/product-thumbnail-17.jpg'
+import ProductThumbnail18 from '@/public/product-thumbnail-18.jpg'
+import ProductThumbnail19 from '@/public/product-thumbnail-19.jpg'
+import ProductThumbnail20 from '@/public/product-thumbnail-20.jpg'
+import ProductThumbnail21 from '@/public/product-thumbnail-21.jpg'
+import ProductThumbnail22 from '@/public/product-thumbnail-22.jpg'
+import ProductThumbnail23 from '@/public/product-thumbnail-23.jpg'
+import ProductThumbnail24 from '@/public/product-thumbnail-24.jpg'
+import ProductThumbnail25 from '@/public/product-thumbnail-25.jpg'
+import ProductThumbnail26 from '@/public/product-thumbnail-26.jpg'
+import ProductThumbnail27 from '@/public/product-thumbnail-27.jpg'
+import ProductThumbnail28 from '@/public/product-thumbnail-28.jpg'
+import ProductThumbnail29 from '@/public/product-thumbnail-29.jpg'
+import ProductThumbnail30 from '@/public/product-thumbnail-30.jpg'
+import ProductThumbnail31 from '@/public/product-thumbnail-31.jpg'
+import ProductThumbnail32 from '@/public/product-thumbnail-32.jpg'
+import ProductThumbnail33 from '@/public/product-thumbnail-33.jpg'
+import ProductThumbnail34 from '@/public/product-thumbnail-34.jpg'
+import ProductThumbnail35 from '@/public/product-thumbnail-35.jpg'
+import ProductThumbnail36 from '@/public/product-thumbnail-36.jpg'
+import ProductThumbnail37 from '@/public/product-thumbnail-37.jpg'
+import ProductThumbnail38 from '@/public/product-thumbnail-38.jpg'
+import ProductThumbnail39 from '@/public/product-thumbnail-39.jpg'
+import ProductThumbnail40 from '@/public/product-thumbnail-40.jpg'
+import ProductThumbnail41 from '@/public/product-thumbnail-41.jpg'
+import ProductThumbnail42 from '@/public/product-thumbnail-42.jpg'
+import ProductThumbnail43 from '@/public/product-thumbnail-43.jpg'
+import ProductThumbnail44 from '@/public/product-thumbnail-44.jpg'
+import ProductThumbnail45 from '@/public/product-thumbnail-45.jpg'
+import ProductThumbnail46 from '@/public/product-thumbnail-46.jpg'
+import ProductThumbnail47 from '@/public/product-thumbnail-47.jpg'
+import ProductThumbnail48 from '@/public/product-thumbnail-48.jpg'
+import ProductThumbnail49 from '@/public/product-thumbnail-49.jpg'
+import ProductThumbnail50 from '@/public/product-thumbnail-50.jpg'
+import ProductThumbnail51 from '@/public/product-thumbnail-51.jpg'
+import ProductThumbnail52 from '@/public/product-thumbnail-52.jpg'
+import ProductThumbnail53 from '@/public/product-thumbnail-53.jpg'
+import ProductThumbnail54 from '@/public/product-thumbnail-54.jpg'
+import ProductThumbnail55 from '@/public/product-thumbnail-55.jpg'
+import ProductThumbnail56 from '@/public/product-thumbnail-56.jpg'
+import ProductThumbnail57 from '@/public/product-thumbnail-57.jpg'
+import ProductThumbnail58 from '@/public/product-thumbnail-58.jpg'
+import ProductThumbnail59 from '@/public/product-thumbnail-59.jpg'
+import ProductThumbnail60 from '@/public/product-thumbnail-60.jpg'
+import ProductThumbnail61 from '@/public/product-thumbnail-61.jpg'
+import ProductThumbnail62 from '@/public/product-thumbnail-62.jpg'
+import ProductThumbnail63 from '@/public/product-thumbnail-63.jpg'
+import ProductThumbnail64 from '@/public/product-thumbnail-64.jpg'
+import ProductThumbnail65 from '@/public/product-thumbnail-65.jpg'
+import ProductThumbnail66 from '@/public/product-thumbnail-66.jpg'
+import ProductThumbnail67 from '@/public/product-thumbnail-67.jpg'
+import ProductThumbnail68 from '@/public/product-thumbnail-68.jpg'
+import ProductThumbnail69 from '@/public/product-thumbnail-69.jpg'
+import ProductThumbnail70 from '@/public/product-thumbnail-70.jpg'
+import ProductThumbnail71 from '@/public/product-thumbnail-71.jpg'
+import ProductThumbnail72 from '@/public/product-thumbnail-72.jpg'
+import ProductThumbnail73 from '@/public/product-thumbnail-73.jpg'
+import ProductThumbnail74 from '@/public/product-thumbnail-74.jpg'
 const ServicesData = [
     
     {
         id: 1,
-        serviceName: "Beauty & Grooming",
-        category: "Beauty & Grooming",
-        serviceThumbnail: CategoryThumbnail1,
+        serviceName: "Body massage",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail1,
+        rating: 5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 2,
-        serviceName: "Healthcare Services",
-        category: "Beauty & Grooming",
-        serviceThumbnail: CategoryThumbnail2,
+        serviceName: "Spa",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail2,
+        rating: 5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 3,
-        serviceName: "Fitness & Wellness",
-        category: "Beauty & Grooming",
-        serviceThumbnail: CategoryThumbnail3,
+        serviceName: "Hair care",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail3,
+        rating: 4.9,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 4,
-        serviceName: "Massage Therapy",
-        category: "Massage Therapy",
-        serviceThumbnail: CategoryThumbnail4,
+        serviceName: "Makeup",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail4,
+        rating: 4,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 5,
-        serviceName: "House Cleaning & Maintenance",
-        category: "House Cleaning & Maintenance",
-        serviceThumbnail: CategoryThumbnail5,
+        serviceName: "Bridal makeup",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail5,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 6,
-        serviceName: "Laundry Services",
-        category: "Healthcare Services",
-        serviceThumbnail: CategoryThumbnail6,
+        serviceName: "Party makeup",
+        category: "Self care",
+        serviceThumbnail: ProductThumbnail6,
+        rating: 2.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 7,
-        serviceName: "Childcare Services",
-        category: "Healthcare Services",
-        serviceThumbnail: CategoryThumbnail7,
+        serviceName: "Old people caring",
+        category: "Take care",
+        serviceThumbnail: ProductThumbnail7,
+        rating: 3.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 8,
-        serviceName: "Home Repair & Handyman Services",
-        category: "Fitness & Wellness",
-        serviceThumbnail: CategoryThumbnail8,
+        serviceName: "Patient caring",
+        category: "Take care",
+        serviceThumbnail: ProductThumbnail8,
+        rating: 4.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 9,
-        serviceName: "Pest Control Services",
-        category: "Fitness & Wellness",
-        serviceThumbnail: CategoryThumbnail9,
+        serviceName: "Child caring ",
+        category: "Take care",
+        serviceThumbnail: ProductThumbnail9,
+        rating: 3.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 10,
-        serviceName: "Legal Document Assistance",
-        category: "Fitness & Wellness",
-        serviceThumbnail: CategoryThumbnail10,
+        serviceName: "Home sample collection",
+        category: "Take care",
+        serviceThumbnail: ProductThumbnail10,
+        rating: 4.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
-    },
+    }, 
     {
         id: 11,
-        serviceName: "Financial & Tax Services",
-        category: "Laundry Services",
-        serviceThumbnail: CategoryThumbnail11,
+        serviceName: "Laundery service",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail11,
+        rating: 3.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
-    },
+    }, 
     {
         id: 12,
-        serviceName: "Property Management",
-        category: "Laundry Services",
-        serviceThumbnail: CategoryThumbnail12,
+        serviceName: "House-keeping",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail12,
+        rating: 3.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 13,
-        serviceName: "Personal Documentation",
-        category: "Laundry Services",
-        serviceThumbnail: CategoryThumbnail13,
+        serviceName: "Cleaning(lat-bath)",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail13,
+        rating: 2.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 14,
-        serviceName: "Electrical Services",
-        category: "Grocery Shopping & Delivery",
-        serviceThumbnail: CategoryThumbnail14,
+        serviceName: "Plumber",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail14,
+        rating: 4.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 15,
-        serviceName: "Childcare Services",
-        category: "Grocery Shopping & Delivery",
-        serviceThumbnail: CategoryThumbnail15,
+        serviceName: "Gardening",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail15,
+        rating: 3.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 16,
-        serviceName: "cylaner seller",
-        category: "Home Repair & Handyman Services",
-        serviceThumbnail: CategoryThumbnail16,
+        serviceName: "Meal prepare",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail16,
+        rating: 2.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 17,
-        serviceName: "Elderly Care",
-        category: "Home Repair & Handyman Services",
-        serviceThumbnail: CategoryThumbnail17,
+        serviceName: "Home security guard",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail17,
+        rating: 5.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 18,
-        serviceName: "Event Planning & Coordination",
-        category: "Home Repair & Handyman Services",
-        serviceThumbnail: CategoryThumbnail18,
+        serviceName: "Water proofing",
+        category: "Home services",
+        serviceThumbnail: ProductThumbnail18,
+        rating: 4.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 19,
-        serviceName: "Grocery Shopping & Delivery",
-        category: "Home Repair & Handyman Services",
-        serviceThumbnail: CategoryThumbnail19,
+        serviceName: "Furniture Related",
+        category: "House Decor",
+        serviceThumbnail: ProductThumbnail19,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 20,
-        serviceName: "Interior Design",
-        category: "Home Repair & Handyman Services",
-        serviceThumbnail: CategoryThumbnail20,
+        serviceName: "Wooden Item",
+        category: "House Decor",
+        serviceThumbnail: ProductThumbnail20,
+        rating: 2.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 21,
-        serviceName: "Landscaping & Garden Design",
-        category: "Pest Control Services",
-        serviceThumbnail: CategoryThumbnail21,
+        serviceName: "Mattres services",
+        category: "House Decor",
+        serviceThumbnail: ProductThumbnail21,
+        rating: 3.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 22,
-        serviceName: "Makeup Services",
-        category: "Pest Control Services",
-        serviceThumbnail: CategoryThumbnail22,
+        serviceName: "Modulor kitchen",
+        category: "House Decor",
+        serviceThumbnail: ProductThumbnail22,
+        rating: 4.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 23,
-        serviceName: "Meal Preparation",
-        category: "Legal Document Assistance",
-        serviceThumbnail: CategoryThumbnail23,
+        serviceName: "Home electric repair",
+        category: "Electrical services",
+        serviceThumbnail: ProductThumbnail23,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 24,
-        serviceName: "Pet Care",
-        category: "Legal Document Assistance",
-        serviceThumbnail: CategoryThumbnail24,
+        serviceName: "New Connection feeting",
+        category: "Electrical services",
+        serviceThumbnail: ProductThumbnail24,
+        rating: 3.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 25,
-        serviceName: "Styling Services",
-        category: "Legal Document Assistance",
-        serviceThumbnail: CategoryThumbnail25,
+        serviceName: "Small electric item repair",
+        category: "Electrical services",
+        serviceThumbnail: ProductThumbnail25,
+        rating: 4.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 26,
-        serviceName: "Vehicle Maintenance Services",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail26,
+        serviceName: "Big Item Electric repair",
+        category: "Electrical services",
+        serviceThumbnail: ProductThumbnail26,
+        rating: 5.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 27,
-        serviceName: "Yoga & Fitness Instruction",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail27,
+        serviceName: "Sound system Repair",
+        category: "Electrical services",
+        serviceThumbnail: ProductThumbnail27,
+        rating: 5.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 28,
-        serviceName: "Academic Tutoring",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail28,
+        serviceName: "Car care",
+        category: "Machnical",
+        serviceThumbnail: ProductThumbnail28,
+        rating: 3.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 29,
-        serviceName: "Baking & Pastry Service",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail29,
+        serviceName: "Car Repair",
+        category: "Machnical",
+        serviceThumbnail: ProductThumbnail29,
+        rating: 2.0,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 30,
-        serviceName: "CA & Financial Consulting",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail30,
+        serviceName: "Car modify",
+        category: "Machnical",
+        serviceThumbnail: ProductThumbnail30,
+        rating: 3.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 31,
-        serviceName: "Catering Services",
-        category: "Financial & Tax Services",
-        serviceThumbnail: CategoryThumbnail31,
+        serviceName: "R-o water purifier",
+        category: "Installation",
+        serviceThumbnail: ProductThumbnail31,
+        rating: 3.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 32,
-        serviceName: "Chauffeur Services",
-        category: "Property Management",
-        serviceThumbnail: CategoryThumbnail32,
+        serviceName: "CCTV Installation",
+        category: "Installation",
+        serviceThumbnail: ProductThumbnail32,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 33,
-        serviceName: "Concierge & Lifestyle Management",
-        category: "Property Management",
-        serviceThumbnail: CategoryThumbnail33,
+        serviceName: "Aluminium work",
+        category: "Installation",
+        serviceThumbnail: ProductThumbnail33,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 34,
-        serviceName: "Driver Training",
-        category: "Property Management",
-        serviceThumbnail: CategoryThumbnail34,
+        serviceName: "Catring ",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail34,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 35,
-        serviceName: "Emergency Plumbing",
-        category: "Property Management",
-        serviceThumbnail: CategoryThumbnail35,
+        serviceName: "Stand up comedian",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail35,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
+  
     {
         id: 36,
-        serviceName: "Event Staff Services",
-        category: "Property Management",
-        serviceThumbnail: CategoryThumbnail36,
+        serviceName: "Gardens",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail36,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 37,
-        serviceName: "Home Renovation",
-        category: "Personal Documentation",
-        serviceThumbnail: CategoryThumbnail37,
+        serviceName: "Band service",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail37,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 38,
-        serviceName: "Labour Services",
-        category: "Personal Documentation",
-        serviceThumbnail: CategoryThumbnail38,
+        serviceName: "Dj service",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail38,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
         id: 39,
-        serviceName: "Mechanical Services",
-        category: "Personal Documentation",
-        serviceThumbnail: CategoryThumbnail39,
+        serviceName: "Photo Graphers",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail39,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
-      {
+    
+    {
         id: 40,
-        serviceName: "Music & Art Lessons",
-        category: "Electrical Services",
-        serviceThumbnail: CategoryThumbnail40,
+        serviceName: "Orcestra Band",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail40,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
+    
     {
         id: 41,
-        serviceName: "Plumbing Repairs",
-        category: "Electrical Services",
-        serviceThumbnail: CategoryThumbnail41,
+        serviceName: "Catering boys / girls",
+        category: "Event  Oragniser",
+        serviceThumbnail: ProductThumbnail41,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 42,
+        serviceName: "Pet caring",
+        category: "Pet related",
+        serviceThumbnail: ProductThumbnail42,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 43,
+        serviceName: "pet item selleor",
+        category: "Pet related",
+        serviceThumbnail: ProductThumbnail43,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
-        id: 42,
-        serviceName: "Vehicle Rental & Leasing",
-        category: "Electrical Services",
-        serviceThumbnail: CategoryThumbnail42,
+        id: 44,
+        serviceName: "Pet  care Doctor",
+        category: "Pet related",
+        serviceThumbnail: ProductThumbnail44,
+        rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
+    {
+        id: 45,
+        serviceName: "Hire local Computer Enginer for service",
+        category: "Tech Supporter",
+        serviceThumbnail: ProductThumbnail45,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 46,
+        serviceName: "Computer and other related accessiores",
+        category: "Tech Supporter",
+        serviceThumbnail: ProductThumbnail46,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 47,
+        serviceName: "Any desk based service",
+        category: "Tech Supporter",
+        serviceThumbnail: ProductThumbnail47,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 48,
+        serviceName: "Tech  Management services",
+        category: "Tech Supporter",
+        serviceThumbnail: ProductThumbnail48,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 49,
+        serviceName: "Car Rental",
+        category: "Rental services",
+        serviceThumbnail: ProductThumbnail49,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 50,
+        serviceName: "Bike Rental",
+        category: "Rental services",
+        serviceThumbnail: ProductThumbnail50,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 51,
+        serviceName: "Living Space Rent",
+        category: "Rental services",
+        serviceThumbnail: ProductThumbnail51,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 52,
+        serviceName: "Cylander",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail52,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 53,
+        serviceName: "Packers and Movers",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail53,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 54,
+        serviceName: "Slef Home delivery Restuarent",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail54,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 55,
+        serviceName: "News paper delivery",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail55,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 56,
+        serviceName: "Real Estate Agents",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail56,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 57,
+        serviceName: "Home sample collections",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail57,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 58,
+        serviceName: "Tiffin services",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail58,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 59,
+        serviceName: "Security services",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail59,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
+    {
+        id: 60,
+        serviceName: "Loan services agents",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail60,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 61,
+        serviceName: "Internation courier services",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail61,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 62,
+        serviceName: "Filter water services",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail62,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 63,
+        serviceName: "Astrologer / vastu sastra services",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail63,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 64,
+        serviceName: "Insurance agents",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail64,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 65,
+        serviceName: "Carrier loader /Helper service",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail65,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 66,
+        serviceName: "Lodder car / truck / pickup",
+        category: "Direct Selling",
+        serviceThumbnail: ProductThumbnail66,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 67,
+        serviceName: "Fitness /Yoga academy near me",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail67,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 68,
+        serviceName: "GYM near me",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail68,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 69,
+        serviceName: "Physiotherapiste",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail69,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 70,
+        serviceName: "Teaching classes",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail70,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 71,
+        serviceName: "Personal tution",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail71,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 72,
+        serviceName: "Dance classes",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail72,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 73,
+        serviceName: "Fashion designer institute",
+        category: "Long Terms",
+        serviceThumbnail: ProductThumbnail73,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    {
+        id: 74,
+        serviceName: "Online store  or any add where user can go to directly them to avail service",
+        category: "Advertisment store",
+        serviceThumbnail: ProductThumbnail74,
+        rating: 2.5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
+    },
+    
     
 ]
 export default ServicesData
