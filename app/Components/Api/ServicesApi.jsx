@@ -140,7 +140,7 @@ const ServicesData = [
     },
     {
         id: 9,
-        serviceName: "Child caring ",
+        serviceName: "Child caring",
         category: "Take care",
         serviceThumbnail: ProductThumbnail9,
         rating: 3.5,
@@ -164,7 +164,7 @@ const ServicesData = [
     }, 
     {
         id: 12,
-        serviceName: "House-keeping",
+        serviceName: "House keeping",
         category: "Home services",
         serviceThumbnail: ProductThumbnail12,
         rating: 3.0,
@@ -172,7 +172,7 @@ const ServicesData = [
     },
     {
         id: 13,
-        serviceName: "Cleaning(lat-bath)",
+        serviceName: "Cleaning lat-bath",
         category: "Home services",
         serviceThumbnail: ProductThumbnail13,
         rating: 2.0,
@@ -316,7 +316,7 @@ const ServicesData = [
     },
     {
         id: 31,
-        serviceName: "R-o water purifier",
+        serviceName: "Ro water purifier",
         category: "Installation",
         serviceThumbnail: ProductThumbnail31,
         rating: 3.5,
@@ -340,8 +340,8 @@ const ServicesData = [
     },
     {
         id: 34,
-        serviceName: "Catring ",
-        category: "Event  Oragniser",
+        serviceName: "Catring",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail34,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -349,7 +349,7 @@ const ServicesData = [
     {
         id: 35,
         serviceName: "Stand up comedian",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail35,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -358,7 +358,7 @@ const ServicesData = [
     {
         id: 36,
         serviceName: "Gardens",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail36,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -366,7 +366,7 @@ const ServicesData = [
     {
         id: 37,
         serviceName: "Band service",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail37,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -374,7 +374,7 @@ const ServicesData = [
     {
         id: 38,
         serviceName: "Dj service",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail38,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -382,7 +382,7 @@ const ServicesData = [
     {
         id: 39,
         serviceName: "Photo Graphers",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail39,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -391,7 +391,7 @@ const ServicesData = [
     {
         id: 40,
         serviceName: "Orcestra Band",
-        category: "Event  Oragniser",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail40,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -399,8 +399,8 @@ const ServicesData = [
     
     {
         id: 41,
-        serviceName: "Catering boys / girls",
-        category: "Event  Oragniser",
+        serviceName: "Catering boys girls",
+        category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail41,
         rating: 2.5,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
@@ -459,7 +459,7 @@ const ServicesData = [
     
     {
         id: 48,
-        serviceName: "Tech  Management services",
+        serviceName: "Tech Management services",
         category: "Tech Supporter",
         serviceThumbnail: ProductThumbnail48,
         rating: 2.5,
@@ -583,7 +583,7 @@ const ServicesData = [
     },
     {
         id: 63,
-        serviceName: "Astrologer / vastu sastra services",
+        serviceName: "Astrologer vastu sastra services",
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail63,
         rating: 2.5,
@@ -599,7 +599,7 @@ const ServicesData = [
     },
     {
         id: 65,
-        serviceName: "Carrier loader /Helper service",
+        serviceName: "Carrier loader Helper service",
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail65,
         rating: 2.5,
@@ -607,7 +607,7 @@ const ServicesData = [
     },
     {
         id: 66,
-        serviceName: "Lodder car / truck / pickup",
+        serviceName: "Lodder car truck pickup",
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail66,
         rating: 2.5,
@@ -615,7 +615,7 @@ const ServicesData = [
     },
     {
         id: 67,
-        serviceName: "Fitness /Yoga academy near me",
+        serviceName: "Fitness Yoga academy near me",
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail67,
         rating: 2.5,
@@ -671,7 +671,7 @@ const ServicesData = [
     },
     {
         id: 74,
-        serviceName: "Online store  or any add where user can go to directly them to avail service",
+        serviceName: "Online store or any add where user can go to directly them to avail service",
         category: "Advertisment store",
         serviceThumbnail: ProductThumbnail74,
         rating: 2.5,

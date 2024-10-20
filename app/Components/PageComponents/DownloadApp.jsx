@@ -19,7 +19,7 @@ export default function DownloadApp() {
                             </div>
                         </form>
                         <div className='flex flex-wrap gap-y-2 gap-x-4 lg:gap-x-6 mt-5 lg:mt-10'>
-                            <a href="#" target='_blank' className='inline-flex items-center gap-x-3 bg-Pcolor rounded-lg px-4 py-2 text-white'>
+                            <a href="https://play.google.com/store/apps/details?id=com.diggiassistmarketing.app" target='_blank' className='inline-flex items-center gap-x-3 bg-Pcolor rounded-lg px-4 py-2 text-white'>
                                 <FaGooglePlay className='text-3xl sm:text-5xl' />
                                 <div className="flex-1">
                                     <span className='text-sm capitalize'>get it on</span>

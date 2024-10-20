@@ -69,7 +69,7 @@ const CategoryListData = [
     },
     {
         id:8,
-        title: "Event  Oragniser",
+        title: "Event Oragniser",
         thumbnail: CategoryThumbnail8,
     },
     {
