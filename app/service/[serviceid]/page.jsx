@@ -30,7 +30,10 @@ export default function SingleService({ params }) {
               <p>{desc}</p>
             </div>
             <div className='space-y-5 lg:space-y-7'>
-              <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold capitalize text-Tcolor mb-3 lg:mb-5'>{priceRange || 'Price not available'}</h2>
+              <div>
+                <h3 className='text-xl sm:text-2xl font-semibold capitalize text-Tcolor mb-2 lg:mb-3'>Price</h3>
+                <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold capitalize text-Tcolor mb-3 lg:mb-5 mt-0'>{priceRange || 'Price not available'}</h2>
+              </div>
               <div>
                 <h3 className='text-xl sm:text-2xl font-semibold capitalize text-Tcolor mb-2 lg:mb-3'>Things To Know</h3>
                 <ul className='text-base text-Bcolor space-y-1 list-[square] list-inside'>

@@ -80,6 +80,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail1,
         rating: 5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -88,6 +89,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail2,
         rating: 5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -96,6 +98,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail3,
         rating: 4.9,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -104,6 +107,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail4,
         rating: 4,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -112,6 +116,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail5,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -120,6 +125,7 @@ const ServicesData = [
         category: "Self care",
         serviceThumbnail: ProductThumbnail6,
         rating: 2.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -128,6 +134,7 @@ const ServicesData = [
         category: "Take care",
         serviceThumbnail: ProductThumbnail7,
         rating: 3.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -136,6 +143,7 @@ const ServicesData = [
         category: "Take care",
         serviceThumbnail: ProductThumbnail8,
         rating: 4.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -144,6 +152,7 @@ const ServicesData = [
         category: "Take care",
         serviceThumbnail: ProductThumbnail9,
         rating: 3.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -152,6 +161,7 @@ const ServicesData = [
         category: "Take care",
         serviceThumbnail: ProductThumbnail10,
         rating: 4.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     }, 
     {
@@ -160,6 +170,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail11,
         rating: 3.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     }, 
     {
@@ -168,6 +179,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail12,
         rating: 3.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -176,6 +188,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail13,
         rating: 2.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -184,6 +197,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail14,
         rating: 4.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -192,6 +206,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail15,
         rating: 3.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -200,6 +215,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail16,
         rating: 2.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -208,6 +224,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail17,
         rating: 5.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -216,6 +233,7 @@ const ServicesData = [
         category: "Home services",
         serviceThumbnail: ProductThumbnail18,
         rating: 4.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -224,6 +242,7 @@ const ServicesData = [
         category: "House Decor",
         serviceThumbnail: ProductThumbnail19,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -232,6 +251,7 @@ const ServicesData = [
         category: "House Decor",
         serviceThumbnail: ProductThumbnail20,
         rating: 2.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -240,6 +260,7 @@ const ServicesData = [
         category: "House Decor",
         serviceThumbnail: ProductThumbnail21,
         rating: 3.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -248,6 +269,7 @@ const ServicesData = [
         category: "House Decor",
         serviceThumbnail: ProductThumbnail22,
         rating: 4.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -256,6 +278,7 @@ const ServicesData = [
         category: "Electrical services",
         serviceThumbnail: ProductThumbnail23,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -264,6 +287,7 @@ const ServicesData = [
         category: "Electrical services",
         serviceThumbnail: ProductThumbnail24,
         rating: 3.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -272,6 +296,7 @@ const ServicesData = [
         category: "Electrical services",
         serviceThumbnail: ProductThumbnail25,
         rating: 4.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -280,6 +305,7 @@ const ServicesData = [
         category: "Electrical services",
         serviceThumbnail: ProductThumbnail26,
         rating: 5.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -288,6 +314,7 @@ const ServicesData = [
         category: "Electrical services",
         serviceThumbnail: ProductThumbnail27,
         rating: 5.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -296,6 +323,7 @@ const ServicesData = [
         category: "Machnical",
         serviceThumbnail: ProductThumbnail28,
         rating: 3.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -304,6 +332,7 @@ const ServicesData = [
         category: "Machnical",
         serviceThumbnail: ProductThumbnail29,
         rating: 2.0,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -312,6 +341,7 @@ const ServicesData = [
         category: "Machnical",
         serviceThumbnail: ProductThumbnail30,
         rating: 3.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -320,6 +350,7 @@ const ServicesData = [
         category: "Installation",
         serviceThumbnail: ProductThumbnail31,
         rating: 3.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -328,6 +359,7 @@ const ServicesData = [
         category: "Installation",
         serviceThumbnail: ProductThumbnail32,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -336,6 +368,7 @@ const ServicesData = [
         category: "Installation",
         serviceThumbnail: ProductThumbnail33,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -344,6 +377,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail34,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -352,6 +386,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail35,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
   
@@ -361,6 +396,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail36,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -369,6 +405,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail37,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -377,6 +414,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail38,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -385,6 +423,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail39,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -394,6 +433,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail40,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -403,6 +443,7 @@ const ServicesData = [
         category: "Event Oragniser",
         serviceThumbnail: ProductThumbnail41,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -412,6 +453,7 @@ const ServicesData = [
         category: "Pet related",
         serviceThumbnail: ProductThumbnail42,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -421,6 +463,7 @@ const ServicesData = [
         category: "Pet related",
         serviceThumbnail: ProductThumbnail43,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -429,6 +472,7 @@ const ServicesData = [
         category: "Pet related",
         serviceThumbnail: ProductThumbnail44,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -437,6 +481,7 @@ const ServicesData = [
         category: "Tech Supporter",
         serviceThumbnail: ProductThumbnail45,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -445,6 +490,7 @@ const ServicesData = [
         category: "Tech Supporter",
         serviceThumbnail: ProductThumbnail46,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -454,6 +500,7 @@ const ServicesData = [
         category: "Tech Supporter",
         serviceThumbnail: ProductThumbnail47,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -463,6 +510,7 @@ const ServicesData = [
         category: "Tech Supporter",
         serviceThumbnail: ProductThumbnail48,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -471,6 +519,7 @@ const ServicesData = [
         category: "Rental services",
         serviceThumbnail: ProductThumbnail49,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -479,6 +528,7 @@ const ServicesData = [
         category: "Rental services",
         serviceThumbnail: ProductThumbnail50,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -487,6 +537,7 @@ const ServicesData = [
         category: "Rental services",
         serviceThumbnail: ProductThumbnail51,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -496,6 +547,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail52,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -505,6 +557,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail53,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -513,6 +566,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail54,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -521,6 +575,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail55,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -529,6 +584,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail56,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -537,6 +593,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail57,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -546,6 +603,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail58,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -554,6 +612,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail59,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
@@ -563,6 +622,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail60,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -571,6 +631,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail61,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -579,6 +640,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail62,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -587,6 +649,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail63,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -595,6 +658,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail64,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -603,6 +667,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail65,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -611,6 +676,7 @@ const ServicesData = [
         category: "Direct Selling",
         serviceThumbnail: ProductThumbnail66,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -619,6 +685,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail67,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -627,6 +694,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail68,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -635,6 +703,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail69,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -643,6 +712,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail70,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -651,6 +721,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail71,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -659,6 +730,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail72,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -667,6 +739,7 @@ const ServicesData = [
         category: "Long Terms",
         serviceThumbnail: ProductThumbnail73,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     {
@@ -675,6 +748,7 @@ const ServicesData = [
         category: "Advertisment store",
         serviceThumbnail: ProductThumbnail74,
         rating: 2.5,
+        priceRange: "₹100 - ₹1000",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia, modi sint explicabo harum illum sequi accusamus nobis vitae hic ullam doloremque consectetur necessitatibus. Aliquid laudantium impedit ducimus earum deserunt.",
     },
     
